@@ -1,0 +1,53 @@
+D-69-91-187-54:~ ShrijaPriyanil$ pwd
+/Users/ShrijaPriyanil
+D-69-91-187-54:~ ShrijaPriyanil$ echo "Hello world!"
+-bash: !": event not found
+D-69-91-187-54:~ ShrijaPriyanil$ echo "Hello"
+Hello
+D-69-91-187-54:~ ShrijaPriyanil$ cd Desktop/
+D-69-91-187-54:Desktop ShrijaPriyanil$ cd Tableau\ work/
+D-69-91-187-54:Tableau work ShrijaPriyanil$ ls
+MyProject 2.twb	MyProject1.twb
+D-69-91-187-54:Tableau work ShrijaPriyanil$ cd ..
+D-69-91-187-54:Desktop ShrijaPriyanil$ cd .
+D-69-91-187-54:Desktop ShrijaPriyanil$ cd ..
+D-69-91-187-54:~ ShrijaPriyanil$ cd Documents/
+D-69-91-187-54:Documents ShrijaPriyanil$ mkdir quick-exercise
+D-69-91-187-54:Documents ShrijaPriyanil$ ls
+MacKeeper Backups	My Tableau Repository	Neo4j			Project Plan.xlsx	quick-exercise
+D-69-91-187-54:Documents ShrijaPriyanil$ cd quick-exercise/
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ ls
+constitution.txt
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ constitution.txt
+-bash: constitution.txt: command not found
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ echo constitution.txt 
+constitution.txt
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ cat constitution.txt | less
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ uit
+-bash: uit: command not found
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ cd ..
+D-69-91-187-54:Documents ShrijaPriyanil$ cd ..
+D-69-91-187-54:~ ShrijaPriyanil$ cd Desktop/
+D-69-91-187-54:Desktop ShrijaPriyanil$ ls
+Cover Letters					Tableau work					Winter 2017
+Resume						Transcript_files				introcs-1.0
+Screen Shot 2017-02-23 at 2.36.01 PM.png	Unofficial Transcript.pdf
+D-69-91-187-54:Desktop ShrijaPriyanil$ cat constitution.txt | less
+cat: constitution.txt: No such file or directory
+D-69-91-187-54:Desktop ShrijaPriyanil$ cat Documents/quick-exercise/constitution.txt | less
+cat: Documents/quick-exercise/constitution.txt: No such file or directory
+D-69-91-187-54:Desktop ShrijaPriyanil$ cat ../Documents/quick-exercise/constitution.txt | less
+D-69-91-187-54:Desktop ShrijaPriyanil$ cd ..
+D-69-91-187-54:~ ShrijaPriyanil$ cd Desktop/
+D-69-91-187-54:Desktop ShrijaPriyanil$ cd ..
+D-69-91-187-54:~ ShrijaPriyanil$ cd Documents/
+D-69-91-187-54:Documents ShrijaPriyanil$ cd quick-exercise/
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ touch bspl{0001..0010}.c
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ ls
+bspl1.c			bspl2.c			bspl4.c			bspl6.c			bspl8.c			constitution.txt
+bspl10.c		bspl3.c			bspl5.c			bspl7.c			bspl9.c
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ rm bspl1.c
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ rm bspl{0002..0010}.c
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ ls
+constitution.txt
+D-69-91-187-54:quick-exercise ShrijaPriyanil$ 
